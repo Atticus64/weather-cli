@@ -94,7 +94,7 @@ class Busquedas {
 
         if ( this.historial.includes( lugar.toLocaleLowerCase() )) return 
 
-        thisi.historial = this.hstorial.splice(0, 5)
+        this.historial = this.historial.splice(0, 5)
 
         this.historial.unshift( lugar.toLocaleLowerCase() );
 
